@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+#search-box {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#results-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.result-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap; /* スマホ表示などで折り返す */
+    align-items: center;
+    gap: 10px;
+}
+
+.item-content {
+    flex-grow: 1; /* 残りのスペースを埋める */
+}
+
+.item-content p {
+    margin: 0 0 5px 0;
+    word-break: break-all; /* URLがはみ出ないように */
+}
+
+.item-content .label {
+    font-weight: bold;
+    color: #555;
+}
+
+.copy-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    background-color: #fff;
+    color: #007bff;
+    border-radius: 5px;
+    white-space: nowrap; /* ボタンテキストを改行させない */
+}
+
+.copy-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* コピー成功時のフィードバック用スタイル */
+#feedback {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.feedback-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
