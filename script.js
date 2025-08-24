@@ -5,6 +5,139 @@ const dataStore = [
     
     {
         id: 4,
+        title: "触れて、消えて",
+        description: "",
+        text: "### 🔻触れて、消えて｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/ncfc6663dfe44"
+    },
+    {
+        id: 5,
+        title: "可能性は無限大！AIアートの幅を広げるアートスタイルについて",
+        description: "",
+        text: "### 🔻可能性は無限大！AIアートの幅を広げるアートスタイルについて｜【狸の挑戦】",
+        url: "https://note.com/danatanotanuki/n/naa6cf71a617d"
+    },
+    {
+        id: 6,
+        title: "胃袋のブラック企業",
+        description: "",
+        text: "### 🔻胃袋のブラック企業｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/n78403f7b2adf"
+    },
+    {
+        id: 7,
+        title: "僕痛む、故に僕あり",
+        description: "",
+        text: "### 🔻僕痛む、故に僕あり｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/n9d3084c257a1"
+    },
+    {
+        id: 8,
+        title: "熱のせい",
+        description: "",
+        text: "### 🔻熱のせい｜【狸の話】",
+        url: "https://note.com/danatanotanuki/n/n73d645c1588c"
+    },
+    {
+        id: 9,
+        title: "【祝100本！】note投稿と共同運営マガジンが100本になりました！感謝を込めてメンバーさん記事をご紹介",
+        description: "",
+        text: "### 🔻【祝100本！】note投稿と共同運営マガジンが100本になりました！感謝を込めてメンバーさん記事をご紹介｜【狸の話】",
+        url: "https://note.com/danatanotanuki/n/n73c4415d3a71"
+    },
+    {
+        id: 10,
+        title: "損切りできない回転寿司",
+        description: "",
+        text: "### 🔻損切りできない回転寿司｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/ne2148b4342b5"
+    },
+    {
+        id: 11,
+        title: "ジ・ガ",
+        description: "",
+        text: "### 🔻ジ・ガ｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/n6b8eedb78cd9"
+    },
+    {
+        id: 12,
+        title: "顔面取引市場",
+        description: "",
+        text: "### 🔻顔面取引市場｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/nec85605fed5d"
+    },
+    {
+        id: 13,
+        title: "製造番号2587",
+        description: "",
+        text: "### 🔻製造番号2587｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/n65f9deb582db"
+    },
+    {
+        id: 14,
+        title: "いやになる、あいうえお",
+        description: "",
+        text: "### 🔻いやになる、あいうえお｜【狸の話】",
+        url: "https://note.com/danatanotanuki/n/n6f16284a3cbc"
+    },
+    {
+        id: 15,
+        title: "理由のない気持ち",
+        description: "",
+        text: "### 🔻理由のない気持ち｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/n0c2f4127feb4"
+    },
+    {
+        id: 16,
+        title: "(770 + 1) ÷ 2",
+        description: "",
+        text: "### 🔻(770 + 1) ÷ 2 ｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/ncd5bdfe824a4"
+    },
+    {
+        id: 17,
+        title: "UN-lockers",
+        description: "",
+        text: "### 🔻UN-lockers｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/n4adb680bcbff"
+    },
+    {
+        id: 18,
+        title: "片道きっぷのユニコーン",
+        description: "",
+        text: "### 🔻片道きっぷのユニコーン｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/n09f26228398e"
+    },
+    {
+        id: 19,
+        title: "腹減った",
+        description: "",
+        text: "### 🔻腹減った｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/n2fe2a9c5d24d"
+    },
+    {
+        id: 20,
+        title: "賢者の時間",
+        description: "",
+        text: "### 🔻賢者の時間｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/nb5dacf03b3d5"
+    },
+    {
+        id: 21,
+        title: "銀色のエクスタシー",
+        description: "",
+        text: "### 🔻銀色のエクスタシー｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/nb7c8f0af87c2"
+    },
+    {
+        id: 22,
+        title: "全員不幸になればいい",
+        description: "",
+        text: "### 🔻全員不幸になればいい｜【狸の短編小説】",
+        url: "https://note.com/danatanotanuki/n/n395535869c4f"
+    },
+    {
+        id: 4,
         title: "はかる",
         description: "", // ←後からキーワードを追加できます
         text: "### 🔻はかる｜【狸の話】",
